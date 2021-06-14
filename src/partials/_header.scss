@@ -1,0 +1,32 @@
+.site_header {
+
+    border-bottom: 1px solid $colore_primario;
+
+    font-weight: bold;
+
+    font-size: 0.8rem;
+
+    .nav-link {
+        color: $colore_primario;
+        &:hover{
+            color: black;
+        }
+    }
+
+    button{
+
+        border: 1px solid #2C4792;
+
+        background-color: white;
+
+        span {
+
+            color: #2C4792;
+            font-weight: bold;
+            vertical-align: text-top;
+            
+        } 
+
+    }
+
+  }

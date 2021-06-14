@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap);
 @charset "UTF-8";
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
@@ -10828,15 +10829,27 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-header {
+body {
+  font-family: "Arimo", sans-serif;
+}
+
+.site_header {
   border-bottom: 1px solid #58402C;
+  font-weight: bold;
+  font-size: 0.8rem;
 }
-header span {
+.site_header .nav-link {
   color: #58402C;
 }
-header a {
-  color: #58402C;
-}
-header a:hover {
+.site_header .nav-link:hover {
   color: black;
+}
+.site_header button {
+  border: 1px solid #2C4792;
+  background-color: white;
+}
+.site_header button span {
+  color: #2C4792;
+  font-weight: bold;
+  vertical-align: text-top;
 }
