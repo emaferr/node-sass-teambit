@@ -10827,6 +10827,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  background-color: black;
+header {
+  border-bottom: 1px solid #58402C;
+}
+header span {
+  color: #58402C;
+}
+header a {
+  color: #58402C;
+}
+header a:hover {
+  color: black;
 }
