@@ -1,5 +1,31 @@
 @import "~bootstrap/scss/bootstrap";
 
-body{
-    background-color: black;
-}
+$colore_primario: #58402C;
+
+.site_header {
+
+    border-bottom: 1px solid $colore_primario;
+
+    .nav-link, span {
+        color: $colore_primario;
+        &:hover{
+            color: black;
+        }
+    }
+
+    button{
+
+        background-color: white;
+
+        border: 1px solid #2C4792;
+
+        span {
+            color: #2C4792;
+        } 
+
+    }
+
+    
+
+  }
+ 
