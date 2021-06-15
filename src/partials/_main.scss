@@ -1,0 +1,32 @@
+.prima_sezione {
+    color: $colore_primario;
+    h1 {
+        line-height: 5rem;
+        font-size: 3.2rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+
+    button{
+        color: white;
+        background-color: #2C4792;
+        border: 1px solid #263f83;
+        font-size: .8rem;
+        font-weight: bolder;
+        margin: 2rem 0;
+
+        img{
+            vertical-align: text-bottom;
+        }
+
+    }
+
+    a{
+        text-decoration: none;
+        color: $colore_primario;
+        display: block;
+    }
+
+}

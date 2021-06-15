@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap);
 @charset "UTF-8";
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
@@ -10830,7 +10830,11 @@ textarea.form-control-lg {
   }
 }
 body {
-  font-family: "Arimo", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 80%;
 }
 
 .site_header {
@@ -10851,5 +10855,31 @@ body {
 .site_header button span {
   color: #2C4792;
   font-weight: bold;
-  vertical-align: text-top;
+}
+
+.prima_sezione {
+  color: #58402C;
+}
+.prima_sezione h1, .prima_sezione .h1 {
+  line-height: 5rem;
+  font-size: 3.2rem;
+}
+.prima_sezione p {
+  font-size: 1.5rem;
+}
+.prima_sezione button {
+  color: white;
+  background-color: #2C4792;
+  border: 1px solid #263f83;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  margin: 2rem 0;
+}
+.prima_sezione button img {
+  vertical-align: text-bottom;
+}
+.prima_sezione a {
+  text-decoration: none;
+  color: #58402C;
+  display: block;
 }
